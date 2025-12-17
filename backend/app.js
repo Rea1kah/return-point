@@ -12,8 +12,7 @@ const app = express();
 const server = http.createServer(app);
 
 const allowedOrigins = [
-    'https://return-point-plum.vercel.app',
-    'http://localhost:5173'
+    'https://return-point-plum.vercel.app'
 ];
 
 const io = new Server(server, {

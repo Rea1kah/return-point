@@ -12,7 +12,8 @@ const app = express();
 const server = http.createServer(app);
 
 const allowedOrigins = [
-    'https://return-point-app.vercel.app/'
+    'https://return-point-app.vercel.app',
+    'http://localhost:5173'
 ];
 
 const io = new Server(server, {
